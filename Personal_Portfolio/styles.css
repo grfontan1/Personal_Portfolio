@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    font-family: monospace, 'Courier New';
+}
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    display: inline-block; /* Or simply use 'display: inline;' */
+    margin-right: 20px; /* Space between menu items */
+    font-size: larger;
+    text-decoration: underline;
+}
+
+nav ul li a {
+    text-decoration: none; /* Optional: Removes underline from links */
+    color: inherit; /* Optional: Ensures the links use the current color */
+}
+.about-me {
+    font-family: monospace, 'Courier New';
+}
+.projects {
+    font-family: monospace, 'Courier New';
+}
+.contact {
+    font-family: monospace, 'Courier New';
+}
+.icon {
+    color: black;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.links a {
+    text-decoration: none;
+    border: none;
+}
+#timer {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+    border: black;
+}
